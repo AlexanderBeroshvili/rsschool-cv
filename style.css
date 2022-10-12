@@ -1,0 +1,90 @@
+
+body{
+    background-color: brown;
+    width: 700px;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+.navigation li a {
+    margin: 10px;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: fantasy;
+    color: goldenrod;
+    font-size: 20px;
+   
+}
+
+#contact, #about, #education, #languages, #project, #code, footer{
+    font-family: monospace;
+    color: ghostwhite
+}
+
+.title{
+    font-family: monospace;
+    color: ghostwhite
+}
+
+.title-img{
+display: flex;
+}
+
+.title-img > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+.code-div > img{
+    width: 450px;
+    height: 400px;
+}
+
+.about-me{
+    font-family: monospace;
+    width: 85%;
+    height: 20%;
+    line-height: 150%;
+}
+
+.plain-anchor{
+    text-decoration: none;
+    font-family: monospace;
+    color: ghostwhite
+}
+
+.code-div{
+    width: 450px;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width:700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer > a > img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.rs-logo{
+    width: 70px;
+    height: 50px;
+    border-radius: 15%;
+}
+
+footer > p{
+    font-size: 16px;
+}
